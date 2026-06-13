@@ -17,7 +17,9 @@
 
 Пример:
 const v = new Validator();
+
 const schema = v.password();
 
 schema.isValid('Hello123'); // true
+
 schema.isValid('hello123'); // false
