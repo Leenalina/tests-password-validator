@@ -1,0 +1,12 @@
+{
+  "name": "tests-password-validator",
+  "version": "1.0.0",
+  "description": "Password validator task with automated tests",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "node --test"
+  },
+  "author": "",
+  "license": "ISC"
+}
