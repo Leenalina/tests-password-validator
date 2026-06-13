@@ -39,7 +39,7 @@ export default class PasswordSchema {
     }
 
     if (!hasCharFrom(value, uppercaseLetters)) {
-      return true;
+      return false;
     }
 
     if (this.requiredSubstring !== null && !value.includes(this.requiredSubstring)) {
